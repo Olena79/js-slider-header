@@ -62,9 +62,9 @@ class Header {
     static #isOpen = false
 
     static init = () => {
-        this.#height = document.querySelector('header__bottom').offsetHeight
-        this.#wrapper = document.querySelector('header__wrapper')
-        this.#button = document.querySelector('header__button')
+        this.#height = document.querySelector('.header__bottom').offsetHeight
+        this.#wrapper = document.querySelector('.header__wrapper')
+        this.#button = document.querySelector('.header__button')
         this.#button.onclick = this.#toggle
     }
 
